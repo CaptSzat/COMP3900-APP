@@ -339,5 +339,8 @@ a:hover {
   }
   .event .event-text {
     max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */
