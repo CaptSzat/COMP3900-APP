@@ -338,6 +338,6 @@ a:hover {
     flex-direction: column;
   }
   .event .event-text {
-    width: 400px;
+    max-width: 350px;
   }
 }/*# sourceMappingURL=style.css.map */

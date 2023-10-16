@@ -337,7 +337,7 @@ a{
       background-color: lightblue;
       flex-direction: column;
       .event-text{
-        width: 400px;
+        max-width: 350px;
       }
     }
   }
