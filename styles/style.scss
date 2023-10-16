@@ -336,5 +336,8 @@ a{
     .event {
       background-color: lightblue;
       flex-direction: column;
+      .event-text{
+        width: 400px;
+      }
     }
   }

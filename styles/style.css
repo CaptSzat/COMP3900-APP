@@ -337,4 +337,7 @@ a:hover {
     background-color: lightblue;
     flex-direction: column;
   }
+  .event .event-text {
+    width: 400px;
+  }
 }/*# sourceMappingURL=style.css.map */
