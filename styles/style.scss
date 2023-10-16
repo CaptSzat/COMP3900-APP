@@ -328,3 +328,10 @@ a{
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .event {
+      background-color: lightblue;
+      flex-direction: column;
+    }
+  }

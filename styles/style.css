@@ -327,4 +327,11 @@ a:hover {
 }
 .calendar .month table td .event.green {
   background-color: rgb(72, 251, 129);
+}
+
+@media only screen and (max-width: 600px) {
+  .event {
+    background-color: lightblue;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
