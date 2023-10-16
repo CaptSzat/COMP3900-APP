@@ -62,6 +62,7 @@ a:hover {
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+  position: fixed;
 }
 .main .top-bar {
   width: 100%;
@@ -73,6 +74,35 @@ a:hover {
   top: 0;
   background-color: rgb(228, 228, 228);
   box-shadow: 0px 2px 7px 3px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+.main .top-bar .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  height: 100%;
+  font-size: 1rem;
+  gap: 5px;
+  background-color: #d5d5d5;
+  padding: 0 1rem 0 1rem;
+}
+.main .top-bar .profile:hover {
+  background-color: #2586e0;
+  color: white;
+}
+.main .top-bar .profile .profile-icon {
+  font-weight: 800;
+  color: var(--main-color);
+  font-size: 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgb(39, 39, 39);
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay {
@@ -141,4 +171,43 @@ a:hover {
 }
 .burger:hover {
   cursor: pointer;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 40px;
+}
+.event-list .event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  min-width: 100px;
+  border-bottom: 2px solid #202020;
+  background-color: #ededed;
+  gap: 10px;
+}
+.event-list .event .pic {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.event-list .event .pic img {
+  max-height: 80%;
+}
+.event-list .event .event-text {
+  padding: 1rem;
+}
+.event-list .event .event-name {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.event-list .event .event-club {
+  font-weight: 550;
 }/*# sourceMappingURL=style.css.map */
