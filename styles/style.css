@@ -63,6 +63,8 @@ a:hover {
   flex-direction: column;
   gap: 2rem;
   position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .main .top-bar {
   width: 100%;
@@ -179,7 +181,6 @@ a:hover {
   align-items: start;
   position: absolute;
   top: 40px;
-  overflow-y: auto;
 }
 .event-list .event {
   display: flex;
