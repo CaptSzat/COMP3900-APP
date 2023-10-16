@@ -68,6 +68,7 @@ a:hover {
 }
 .main .top-bar {
   width: 100%;
+  padding: 0 1rem 0 1rem;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -163,7 +164,7 @@ a:hover {
 }
 .burger {
   position: absolute;
-  left: 0;
+  left: 20px;
   width: 50px;
   height: 100%;
   font-size: 1.5rem;
