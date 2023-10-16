@@ -6,6 +6,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body, html {
+  overflow-y: scroll;
+}
+
 :root {
   --main-color: rgb(76, 118, 255);
 }
@@ -63,7 +67,6 @@ a:hover {
   flex-direction: column;
   gap: 2rem;
   position: fixed;
-  overflow-y: scroll;
   overflow-x: hidden;
 }
 .main .top-bar {
