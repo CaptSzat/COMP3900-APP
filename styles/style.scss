@@ -179,6 +179,7 @@ a{
     align-items: start;
     position: absolute;
     top: 40px;
+    overflow-y: auto;
     .event{
         display: flex;
         justify-content: center;
