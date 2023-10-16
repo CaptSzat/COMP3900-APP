@@ -213,4 +213,56 @@ a:hover {
 }
 .event-list .event .event-club {
   font-weight: 550;
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+}
+.friends .search-bar {
+  width: 100%;
+}
+.friends .search-bar input {
+  width: 100%;
+}
+.friends .friends-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.friends .friends-list .friend {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f3f3f3;
+  border-bottom: 2px solid black;
+}
+.friends .friends-list .friend .friend-inner {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  width: 100px;
+}
+.friends .friends-list .friend .profile-icon {
+  font-weight: 800;
+  color: var(--main-color);
+  font-size: 1.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgb(39, 39, 39);
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
