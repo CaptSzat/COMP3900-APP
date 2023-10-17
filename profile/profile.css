@@ -1,0 +1,65 @@
+/* Existing styles (if any) */
+
+/* New styles for the profile and task sections */
+.profile-details {
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1em;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.your-event {
+    text-align: center;
+    padding: 1em;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    text-align: left;
+    background-color: #f7f7f7;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-radius: 4px;
+}
+
+.event-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.event-description {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.mutual-friends {
+    color: #666;
+    margin-left: 10px;
+}
+
+.date-bar {
+    text-align: left;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
