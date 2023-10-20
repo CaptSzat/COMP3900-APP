@@ -64,7 +64,7 @@ a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 15px;
   position: fixed;
   overflow-x: hidden;
 }
@@ -183,9 +183,21 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: start;
-  position: absolute;
+  width: 80%;
+  gap: 10px;
+}
+.event-list .dates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  top: 40px;
+  padding: 1rem;
+  min-width: 100px;
+  border-radius: 15px;
+  font-weight: 900;
+  border-bottom: 2px solid #3467ff;
+  background-color: #f8f8f8;
+  gap: 10px;
 }
 .event-list .event {
   display: flex;
@@ -194,19 +206,29 @@ a:hover {
   width: 100%;
   padding: 1rem;
   min-width: 100px;
-  border-bottom: 2px solid #202020;
+  border-radius: 35px;
+  border-bottom: 2px solid #3467ff;
   background-color: #ededed;
   gap: 10px;
 }
+.event-list .event:hover {
+  background-color: #f1f1f1;
+}
 .event-list .event .pic {
-  height: 100px;
+  height: 150px;
+  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
 }
 .event-list .event .pic img {
-  max-height: 80%;
+  border-radius: 50%;
+  border: 2px solid rgb(28, 153, 225);
+  max-height: 110px;
+  max-width: 110px;
+  min-height: 100px;
+  min-width: 100px;
 }
 .event-list .event .event-text {
   max-width: 500px;
@@ -238,35 +260,67 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 50%;
 }
 .friends .friends-list .friend {
   height: 100px;
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 5rem;
+  gap: 10px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  border-bottom: 2px solid rgb(41, 126, 229);
+  font-weight: 700;
+  position: relative;
+}
+.friends .friends-list .friend:hover {
+  background-color: rgb(241, 241, 241);
+}
+.friends .friends-list .friend .menu {
+  font-weight: 900;
+  text-align: center;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  background-color: #f3f3f3;
-  border-bottom: 2px solid black;
+  font-size: 2rem;
+  position: absolute;
+  right: 30px;
+  top: 23.5px;
 }
 .friends .friends-list .friend .friend-inner {
   display: flex;
   justify-content: left;
   align-items: center;
   gap: 10px;
-  width: 100px;
 }
 .friends .friends-list .friend .profile-icon {
   font-weight: 800;
   color: var(--main-color);
   font-size: 1.5rem;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   overflow: hidden;
-  border: 2px solid rgb(39, 39, 39);
-  background-color: #202020;
+  border: 2px solid rgb(50, 92, 227);
+  background: linear-gradient(35deg, rgb(4, 80, 141), rgb(0, 4, 24));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-details > .profile-icon {
+  font-weight: 800;
+  color: var(--main-color);
+  font-size: 2.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgb(50, 92, 227);
+  background: linear-gradient(35deg, rgb(4, 80, 141), rgb(0, 4, 24));
   display: flex;
   justify-content: center;
   align-items: center;
